@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "m0mGZwgPdhWAFnYIerCuF3B2xS1Bmokigc/A9sLMNqXfU9cEcQ+dzAP/4DmzOReQiYC7iDHy4Vhunh0aB+9OmA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Anita\\Desktop\\CTI\\CTI Anul 4\\DAW\\VintageShop-master\\VintageShop-master\\VintageShop\\VintageShop.csproj",
@@ -102,5 +103,11 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "eNJ6GUbQNevG8dXheR/5XLdnvrZbNRn+/rZiBaqgsOqGAcGJRiy45Ovre2yF1T3raP4wKZ+5QWxfPtRGKt3Byw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Anita\\Desktop\\CTI\\CTI Anul 4\\DAW\\VintageShop\\VintageShop\\VintageShop.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> 7e0f349bc0e57b982e4454513632d58eb36bc077
   "logs": []
 }

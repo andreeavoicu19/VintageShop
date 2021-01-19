@@ -1,6 +1,7 @@
 {
   "version": 3,
   "targets": {
+<<<<<<< HEAD
     ".NETCoreApp,Version=v3.1": {
       "Humanizer.Core/2.8.26": {
         "type": "package",
@@ -5748,6 +5749,13 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.2"
     ]
+=======
+    ".NETCoreApp,Version=v3.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": []
+>>>>>>> 7e0f349bc0e57b982e4454513632d58eb36bc077
   },
   "packageFolders": {
     "C:\\Users\\Anita\\.nuget\\packages\\": {},
@@ -5756,11 +5764,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Anita\\Desktop\\CTI\\CTI Anul 4\\DAW\\VintageShop-master\\VintageShop-master\\VintageShop\\VintageShop.csproj",
       "projectName": "VintageShop",
       "projectPath": "C:\\Users\\Anita\\Desktop\\CTI\\CTI Anul 4\\DAW\\VintageShop-master\\VintageShop-master\\VintageShop\\VintageShop.csproj",
       "packagesPath": "C:\\Users\\Anita\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Anita\\Desktop\\CTI\\CTI Anul 4\\DAW\\VintageShop-master\\VintageShop-master\\VintageShop\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\Anita\\Desktop\\CTI\\CTI Anul 4\\DAW\\VintageShop\\VintageShop\\VintageShop.csproj",
+      "projectName": "VintageShop",
+      "projectPath": "C:\\Users\\Anita\\Desktop\\CTI\\CTI Anul 4\\DAW\\VintageShop\\VintageShop\\VintageShop.csproj",
+      "packagesPath": "C:\\Users\\Anita\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anita\\Desktop\\CTI\\CTI Anul 4\\DAW\\VintageShop\\VintageShop\\obj\\",
+>>>>>>> 7e0f349bc0e57b982e4454513632d58eb36bc077
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5791,6 +5807,7 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
+<<<<<<< HEAD
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -5811,6 +5828,8 @@
             "version": "[5.0.2, )"
           }
         },
+=======
+>>>>>>> 7e0f349bc0e57b982e4454513632d58eb36bc077
         "imports": [
           "net461",
           "net462",

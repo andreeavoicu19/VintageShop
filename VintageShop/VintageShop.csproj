@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.2" />
@@ -14,5 +15,7 @@
     </PackageReference>
   </ItemGroup>
 
+=======
+>>>>>>> 7e0f349bc0e57b982e4454513632d58eb36bc077
 
 </Project>
