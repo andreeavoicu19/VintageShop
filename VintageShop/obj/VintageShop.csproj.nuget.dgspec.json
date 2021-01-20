@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\Anita\\Desktop\\CTI\\CTI Anul 4\\DAW\\VintageShop-master\\VintageShop-master\\VintageShop\\VintageShop.csproj": {}
   },
   "projects": {
@@ -13,19 +12,6 @@
         "projectPath": "C:\\Users\\Anita\\Desktop\\CTI\\CTI Anul 4\\DAW\\VintageShop-master\\VintageShop-master\\VintageShop\\VintageShop.csproj",
         "packagesPath": "C:\\Users\\Anita\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Anita\\Desktop\\CTI\\CTI Anul 4\\DAW\\VintageShop-master\\VintageShop-master\\VintageShop\\obj\\",
-=======
-    "C:\\Users\\Anita\\Desktop\\CTI\\CTI Anul 4\\DAW\\VintageShop\\VintageShop\\VintageShop.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Anita\\Desktop\\CTI\\CTI Anul 4\\DAW\\VintageShop\\VintageShop\\VintageShop.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Anita\\Desktop\\CTI\\CTI Anul 4\\DAW\\VintageShop\\VintageShop\\VintageShop.csproj",
-        "projectName": "VintageShop",
-        "projectPath": "C:\\Users\\Anita\\Desktop\\CTI\\CTI Anul 4\\DAW\\VintageShop\\VintageShop\\VintageShop.csproj",
-        "packagesPath": "C:\\Users\\Anita\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Anita\\Desktop\\CTI\\CTI Anul 4\\DAW\\VintageShop\\VintageShop\\obj\\",
->>>>>>> 7e0f349bc0e57b982e4454513632d58eb36bc077
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -35,15 +21,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "netcoreapp5.0",
             "projectReferences": {}
           }
         },
@@ -54,10 +40,17 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-<<<<<<< HEAD
+        "net5.0": {
+          "targetAlias": "netcoreapp5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.2, )"
@@ -77,8 +70,6 @@
               "version": "[5.0.2, )"
             }
           },
-=======
->>>>>>> 7e0f349bc0e57b982e4454513632d58eb36bc077
           "imports": [
             "net461",
             "net462",

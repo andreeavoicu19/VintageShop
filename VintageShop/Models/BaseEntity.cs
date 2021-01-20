@@ -9,5 +9,6 @@ namespace VintageShop.Models
     {
         public int Id { get; set; }
         public DateTime CreateTime { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

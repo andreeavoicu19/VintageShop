@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\VintageShop",
+    "\\VintageShop\\Data",
+    "\\VintageShop\\Enums",
+    "\\VintageShop\\Mapper",
+    "\\VintageShop\\Migrations",
+    "\\VintageShop\\Models"
+  ],
+  "SelectedNode": "\\VintageShop\\Startup.cs",
+  "PreviewInSolutionExplorer": false
+}

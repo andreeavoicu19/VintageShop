@@ -18,7 +18,6 @@ C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop\VintageShop\obj\Debug\netc
 C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop\VintageShop\obj\Debug\netcoreapp3.1\VintageShop.dll
 C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop\VintageShop\obj\Debug\netcoreapp3.1\VintageShop.pdb
 C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop\VintageShop\obj\Debug\netcoreapp3.1\VintageShop.genruntimeconfig.cache
-<<<<<<< HEAD
 C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\VintageShop\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\VintageShop\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\VintageShop\bin\Debug\netcoreapp3.1\VintageShop.exe
@@ -82,5 +81,3 @@ C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\
 C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\VintageShop\obj\Debug\netcoreapp3.1\VintageShop.dll
 C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\VintageShop\obj\Debug\netcoreapp3.1\VintageShop.pdb
 C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\VintageShop\obj\Debug\netcoreapp3.1\VintageShop.genruntimeconfig.cache
-=======
->>>>>>> 7e0f349bc0e57b982e4454513632d58eb36bc077

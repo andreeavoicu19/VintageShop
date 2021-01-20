@@ -8,7 +8,7 @@ namespace VintageShop.Mapper
     {
         public void Configure(EntityTypeBuilder<Category> builder)
         {
-            builder.HasKey(x => x.Id);  //set the id property as the pk
+            builder.HasKey(x => x.Id);  
 
             builder.Property(x => x.Name)
                 .IsRequired()
