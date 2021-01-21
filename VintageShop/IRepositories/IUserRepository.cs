@@ -9,6 +9,7 @@ namespace VintageShop.IRepositories
     public interface IUserRepository : IGenericRepository<User>
     {
         User GetByUserAndPassword(string username, string password);
+
     }
 }
 

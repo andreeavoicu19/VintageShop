@@ -16,8 +16,11 @@ namespace VintageShop.IRepositories
         Task<IEnumerable<TEntity>> Search(Expression<Func<TEntity, bool>> predicate);
         Task<int> SaveChanges();
 
- 
-        List<TEntity> GetAllActive();
+
+        void Create(TEntity entity);
+
+        //List<TEntity> GetAllActive();
+        TEntity FindById(int id);
 
         bool SaveCh();
     }

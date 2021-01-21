@@ -13,6 +13,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace VintageShop.Services
 {
     public class UserService : IUserService
@@ -33,11 +34,11 @@ namespace VintageShop.Services
             _userRepository.Create(entity);
             return _userRepository.SaveCh();
         }
-
+        /*
         public List<User> GetAll()
         {
             return _userRepository.GetAllActive();
-        }
+        }*/
 
         public User GetById(int id)
         {

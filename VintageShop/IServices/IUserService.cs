@@ -9,7 +9,7 @@ namespace VintageShop.IServices
     public interface IUserService
     {
         User GetById(int id);
-        List<User> GetAll();
+        //List<User> GetAll();
         bool Register(AuthenticationRequest request);
         AuthenticationResponse Login(AuthenticationRequest request);
     }

@@ -58,3 +58,10 @@ C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\
 C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\VintageShop\bin\Debug\netcoreapp5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\VintageShop\bin\Debug\netcoreapp5.0\Microsoft.AspNetCore.SpaServices.Extensions.dll
 C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\VintageShop\bin\Debug\netcoreapp5.0\Newtonsoft.Json.Bson.dll
+C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\VintageShop\obj\Debug\netcoreapp5.0\VintageShop.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\VintageShop\bin\Debug\netcoreapp5.0\AutoMapper.dll
+C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\VintageShop\bin\Debug\netcoreapp5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\VintageShop\bin\Debug\netcoreapp5.0\Microsoft.OpenApi.dll
+C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\VintageShop\bin\Debug\netcoreapp5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\VintageShop\bin\Debug\netcoreapp5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Anita\Desktop\CTI\CTI Anul 4\DAW\VintageShop-master\VintageShop-master\VintageShop\bin\Debug\netcoreapp5.0\Swashbuckle.AspNetCore.SwaggerUI.dll

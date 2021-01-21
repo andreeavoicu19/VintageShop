@@ -8,20 +8,20 @@ namespace VintageShop.Mapper
     {
         public void Configure(EntityTypeBuilder<Category> builder)
         {
-            builder.HasKey(x => x.Id);  
+            builder.HasKey(c => c.Id);  
 
-            builder.Property(x => x.Name)
+            builder.Property(c => c.Name)
                 .IsRequired()
                 .HasColumnType("varchar(150)");
 
-            builder.HasMany(x => x.Products)
-                .WithOne(p => p.Category)
-                .HasForeignKey(p => p.CategoryId);
+            builder.HasMany(c => c.Products)
+                .WithOne(b => b.Category)
+                .HasForeignKey(b => b.CategoryId);
 
-            builder.HasMany(x => x.CategoryProducts)
-                .WithOne(p => p.Category)
-                .HasForeignKey(p => p.CategoryId);
-
+            builder.HasMany(c => c.CategoryProducts)
+                .WithOne(b => b.Category)
+                .HasForeignKey(b => b.CategoryId);
+            
             builder.ToTable("Categories");
         }
     }

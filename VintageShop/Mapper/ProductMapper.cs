@@ -21,8 +21,7 @@ namespace VintageShop.Mapper
             builder.Property(b => b.Value)
                 .IsRequired();
 
-            builder.Property(b => b.ProductDate)
-                .IsRequired();
+            builder.Property(b => b.ProductDate);
 
             builder.Property(b => b.CategoryId)
                 .IsRequired();
@@ -30,7 +29,7 @@ namespace VintageShop.Mapper
             builder.HasMany(x => x.CategoryProducts)
                 .WithOne(p => p.Product)
                 .HasForeignKey(p => p.ProductId);
-
+            
             builder.ToTable("Products");
         }
     }

@@ -53,7 +53,6 @@ namespace VintageShop.Repositories
         public virtual async Task Remove(TEntity entity)
         {
             DbSet.Remove(entity);
-            entity.IsDeleted = true;
             await SaveChanges();
         }
 
@@ -62,16 +61,24 @@ namespace VintageShop.Repositories
             return await Db.SaveChangesAsync();
         }
 
-        public List<TEntity> GetAllActive()
-        {
-            return DbSet.Where(x => !x.IsDeleted).ToList();
-        }
-
         public bool SaveCh()
         {
             return (Db.SaveChanges() > 0);
         }
-
+        public void Create(TEntity entity)
+        {
+            entity.CreateTime = DateTime.UtcNow;
+            Db.Set<TEntity>().Add(entity);
+        }
+        /*
+        public List<TEntity> GetAllActive()
+        {
+            return DbSet.Where(x => !x.IsDeleted).ToList();
+        }*/
+        public TEntity FindById(int id)
+        {
+            return DbSet.Find(id);
+        }
         public void Dispose()
         {
             Db?.Dispose();

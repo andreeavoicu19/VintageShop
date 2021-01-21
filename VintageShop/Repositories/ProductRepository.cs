@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using VintageShop.IServices;
 using VintageShop.IRepositories;
 using VintageShop.Models;
 using VintageShop.Data;
