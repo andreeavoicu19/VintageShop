@@ -1,0 +1,47 @@
+<div class="jumbtron">
+  <h1 class="display-4 text-center">Products</h1>
+</div>
+
+<div class="col-md-12">
+  <button type="button" class="btn btn-success" (click)="addProduct()">New Product</button>
+  <hr />
+
+  <div class="form-group">
+    <label for="Search">Search</label>
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <div class="input-group-text bg-white">
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+      <input type="text" [(ngModel)]="searchTerm" (ngModelChange)="searchProducts()" />
+    </div>
+  </div>
+
+  <table class="table table-condensed table-bordered table-striped table-hover">
+    <thead>
+      <tr>
+        <th>Product Name</th>
+        <th>Description</th>
+        <th>Category</th>
+        <th>Value</th>
+        <th>Product Date</th>
+        <th>Options</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        <td>{{product.name}}</td>
+        <td>{{product.description.length > 25 ? (product.description | slice : 0:25) + '...' : product.description}}</td>
+        <td>{{product.categoryName}}</td>
+        <td>{{product.value | currency}}</td>
+        <td>{{product.productDate | date: 'mediumDate'}}</td>
+        <td class="action-button-column">
+          <a title="Edit" (click)="editProduct(product.id)"><i class="fas fa-edit"></i> </a>
+          <a title="Delete" (click)="deleteProduct(product.id)" style="margin-left: 12px;"><i class="fas fa-trash-alt"></i> </a>
+        </td>
+      </tr>
+    </tbody>
+
+  </table>
+</div>
